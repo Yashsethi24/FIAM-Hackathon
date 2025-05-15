@@ -62,7 +62,8 @@ These files are excluded from the repository using `.gitignore`. To work with th
 
 2. **Option 2: Download from External Source**
    - Contact the project maintainers for access to the large data files
-   - Files are available upon request
+   - Files are available in the following link:s
+   https://mcgill-my.sharepoint.com/:f:/g/personal/yash_sethi_mail_mcgill_ca/Etl4xfiMgYBDkZsM_HWSOjQB8ZYQbxpZMJr7_VzZBJZXsw?e=fchWBh
 
 ## Analysis Notebooks
 - `HMM_again.ipynb`: Hidden Markov Model analysis
