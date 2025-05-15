@@ -43,6 +43,27 @@ FIAM-Hackathon/
 - `factor_char_list.csv`: Factor characteristics list
 - `OECD_Macro.csv`: OECD macroeconomic data
 
+## Large Data Files
+Some data files in this repository are too large to be stored directly on GitHub (>100MB):
+- `data_hackathon_3_with_semi_filtered.csv` (1019MB)
+- `hackathon_sample_v2.csv` (481MB)
+
+These files are excluded from the repository using `.gitignore`. To work with these files:
+
+1. **Option 1: Use Git LFS**
+   ```bash
+   # Install Git LFS
+   git lfs install
+   
+   # Track large files
+   git lfs track "data/raw/data_hackathon_3_with_semi_filtered.csv"
+   git lfs track "data/raw/hackathon_sample_v2.csv"
+   ```
+
+2. **Option 2: Download from External Source**
+   - Contact the project maintainers for access to the large data files
+   - Files are available upon request
+
 ## Analysis Notebooks
 - `HMM_again.ipynb`: Hidden Markov Model analysis
 - `backtest_regime_version.ipynb`: Backtesting regime analysis
@@ -56,8 +77,10 @@ FIAM-Hackathon/
 1. Clone this repository
 2. Navigate to the notebooks directory to view the analysis
 3. Check the presentations directory for project overview and results
+4. For large data files, follow the instructions in the "Large Data Files" section
 
 ## Requirements
 - Python 3.x
 - Jupyter Notebook
 - Required Python packages (to be listed)
+

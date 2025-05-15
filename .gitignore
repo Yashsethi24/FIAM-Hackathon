@@ -1,0 +1,20 @@
+# Large data files
+raw_data/data_hackathon_3_with_semi_filtered.csv
+raw_data/hackathon_sample_v2.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/ 
